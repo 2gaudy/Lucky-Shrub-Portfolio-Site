@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.container {
+    background-color: #FFDCAE;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display:flex;
+    justify-content: center;
+    background-color: #76BA99;
+    min-width: 20vh;
+    min-height: 20vh;
+    border-radius: 25px;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    right: 15px;
+}
+
+
+.header-logo {
+    max-width: 70px;
+    max-height: 80%;
+}
+
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 60vh;
+    min-height: 13vh;    
+    list-style-type: none;
+    border: 30px;
+    border-color:black;
+    
+    
+} 
+
+.nav-links  a:link {
+    padding: 20px;
+    list-style-type: none;
+    color: white;
+    width: 8vh;
+    height:40vh;
+    text-decoration: none;
+    font-size: 8vh;
+    margin: 30px;
+    
+    
+}
+
+.nav-links  a:visited {
+    padding: 20px;
+    list-style-type: none;
+    color: white;
+    width: 8vh;
+    text-decoration: none;
+    font-size: 7vh;
+    
+    
+}
+
+.nav-links > li {
+    background-color: #CED89E;
+    border-radius: 25px;
+    width: 30%;
+    margin: 10px;
+    border-color: white;;
+}
+
+.left-decal{
+    height: auto;
+    min-width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    position: relative;
+    top: 65px;
+}
+
+.right-decal{
+    position: relative;
+    top: 70px;
+    right: 15px;
+}
+
+
+
+.right-flower{
+    display: flex;
+    position: relative;
+    left: 10px; 
+    margin-left:50px;
+}
+
+.left-decal > img {
+    display: flex;
+    flex-direction: row;
+    width: 22vh;
+    
+}
+
+.left-flower1 {
+    margin-right: 100px;
+    margin: 0px;
+    display: flex;
+    position: absolute;
+}
+
+.right-decal{
+    display: flex;
+}
+
+.right-decal > img{
+    display: flex;
+    flex-direction: row;
+    width: 20vh;
+}
+
+#visual {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    display: flex;
+    border-radius: 20px;
+    border: black;
+}
+
+.promo-head {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 30vh;
+    font-size: 5vh;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.main-bottom {
+    display: flex;
+    background-color: #76BA99;
+    min-height:30vh;
+    min-width: 20%;
+    border-radius: 10px;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.main-bottom > div{
+    background-color: #FFDCAE;
+    border-radius: 25px;
+    display: flex;
+    min-width: 30vh;
+    max-height: 30vh;
+    margin: 30px;
+    
+}
+
+.right, .middle, .left{
+    color: white;
+    font-size: 2vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    
+
+
+}
+
+.right > img{
+    height: 19vh;
+    width: 25vh;
+    display: flex;
+    margin: 15px auto 10px auto;
+    border-radius: 25px;
+    
+}
+
+.middle > img{
+    height: 19vh;
+    width: 25vh;
+    display: flex;
+    margin: 15px auto 10px auto;
+    border-radius: 25px;
+}
+
+.left > img{
+    height: 19vh;
+    width: 25vh;
+    display: flex;
+    margin: 15px auto 10px auto;
+    border-radius: 25px;
+
+}
+
+.right:hover{
+    animation: hover 0.5s ease-in;
+
+}
+
+.middle:hover{
+    animation: hover 0.5s ease-in;
+}
+
+.left:hover{
+    animation: hover 0.5s ease-in;
+}
+
+@keyframes hover {
+    0%{
+        background-color: #76BA99;
+    }
+    
+        
+
+    
+    50%{
+        background-color: #FFDCAE;
+
+    }
+   
+    100%{
+        background-color: #76BA99;
+    }
+}
