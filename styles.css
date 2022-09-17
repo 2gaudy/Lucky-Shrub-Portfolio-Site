@@ -92,12 +92,12 @@ header {
     align-items: flex-end;
     flex-direction: row;
     position: relative;
-    top: 65px;
+    top: 70px;
 }
 
 .right-decal{
     position: relative;
-    top: 70px;
+    top: 75px;
     right: 15px;
 }
 
@@ -246,3 +246,38 @@ header {
         background-color: #76BA99;
     }
 }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30vh;
+}
+
+.foot-left, .foot-right{
+    background-color: #76BA99;
+    height: 20vh;
+    width: 50vh;
+    margin: 5hv 0 5vh 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    display: flex;
+    height: 10vh;
+    width:10vh;
+}
+
+.copyright{
+    height: 10vh;
+    width: 39vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
